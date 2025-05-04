@@ -1,2 +1,3 @@
 # NASSCOM-Semiconductor-Packaging
-The repo is about semiconductor packaging workshop offered by VSD, NASSCOM
+The repository is about the semiconductor packaging workshop offered by VSD and NASSCOM.
+It contains the details about the labs and exploring other packages.
