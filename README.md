@@ -146,13 +146,41 @@ After placing all the rectangles, change the rectangle name and material similar
 
 Create a rectangle on the substrate 
 ![image49](https://github.com/user-attachments/assets/c27d2ed6-486d-45ce-9acf-6efc013362d4)
+
 The size and position of the reactangle are shown in the figure below
 ![image50](https://github.com/user-attachments/assets/4769c989-f0ec-48b9-b366-58b1c6ed5b44)
+
 Add thickness
 ![image51](https://github.com/user-attachments/assets/ee1ea2be-51d6-46d2-8e80-471fad7d30d4)
+
 change the rectangle name, material and color
 ![image52](https://github.com/user-attachments/assets/7f63aba7-f7af-4b35-b92b-320df0414984)
+
 After placing a few more rectangles at a pitch of 0.5 mm, and repeating the same process of name and material. The final image will look like this.
 ![image53](https://github.com/user-attachments/assets/e816b391-2ee5-4706-a736-0bf0d3148d21)
 
+Click on draw button and select the bondwire function. Joint to diebondpad and substartebondpad using bondwire function.
+![image54](https://github.com/user-attachments/assets/9e4e32ed-3876-4e49-ae7f-a13a4ad3caab)
 
+Change the name and material if required
+![image55](https://github.com/user-attachments/assets/49f72404-d9a7-4b11-83f0-87ba384d1bd3)
+
+After connecting all the connection, the die will look like below
+![image56](https://github.com/user-attachments/assets/30271c97-251c-4879-8118-0d900b37016a)
+
+Create a rectangle of the same size and location as the substrate. And add Thickness 0.9 mm.
+![image57](https://github.com/user-attachments/assets/4c817e2e-b0da-4026-8e31-c7d343099512)
+
+Change the rectangle name to Moldedbody and the material to epoxy or similar material
+![image58](https://github.com/user-attachments/assets/d8160648-911c-4ae9-93fc-d96c0a313543)
+
+Final model of DFN package will look like the image below
+![image59](https://github.com/user-attachments/assets/84c8b8ee-53e2-4009-8e6f-e081e3a3269f)
+![image60](https://github.com/user-attachments/assets/7faee64d-99e6-408b-9bb7-079da7899b04)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+## <h2 id="header-6">Acknowledgements</h2>
+ 
+[Dr. Tarun Kumar Agarwal](https://iitgn.ac.in/faculty/ee/fac-tarun)
+[Kunal Ghosh](https://github.com/kunalg123) 
