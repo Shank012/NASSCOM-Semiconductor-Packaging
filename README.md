@@ -24,7 +24,7 @@ The activities include:
 
 <div class="toc">
   <ul>
-    <li><a href="#header-6">Acknowledgements</a></li>
+    <li><a href="#header-4">Acknowledgements</a></li>
   </ul>
 </div>  
 
@@ -82,7 +82,7 @@ Fill out the dimensions of the package and die according to the datasheet or cus
 
 ![image20](https://github.com/user-attachments/assets/cba1cae6-e214-4b99-8569-e026919293f8)
 
-Double-click the Thermal component > Select Powre > 1W
+Double-click the Thermal component > Select Power > 1W
 ![image21](https://github.com/user-attachments/assets/03773c00-83ee-44bc-a785-bf9fe0fb4fa0)
 
 Select the Flipchip_BGA_substrate > Assign thermal > Source
@@ -100,12 +100,16 @@ Assign temperature monitors to underfil, substrate, and die.
 Go to Simulation Tab > Generate Mesh
 ![image26](https://github.com/user-attachments/assets/e26d8d81-3a42-4074-af89-4ee2062ce61b)
 
+Check Mesh quality and other functions in that window.
 ![image27](https://github.com/user-attachments/assets/60d6f9cb-19ed-440d-8671-44e0f6f01d3b)
 
+Do analysis setup
 ![image28](https://github.com/user-attachments/assets/3e7b3898-3499-4d73-9099-d4fe704b6708)
 
+Validate the package. If anything is wrong, solve the error. After that, analyse the package using the Analyze all function near to validate button.
 ![image29](https://github.com/user-attachments/assets/32338dfc-1397-4c8c-bec8-9d60ce989cbb)
 
+Select the package, Right click > Plot fields > Temperature
 ![image30](https://github.com/user-attachments/assets/11608af7-a7f5-4dd5-8730-c825c069c887)
 
 ![image31](https://github.com/user-attachments/assets/4a79e499-7936-4b54-a7eb-1d391cfd24f3)
@@ -188,7 +192,7 @@ Final model of DFN package will look like the image below
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-## <h2 id="header-6">Acknowledgements</h2>
+## <h2 id="header-4">Acknowledgements</h2>
  
 [Dr. Tarun Kumar Agarwal](https://iitgn.ac.in/faculty/ee/fac-tarun)
 [Kunal Ghosh](https://github.com/kunalg123) 
