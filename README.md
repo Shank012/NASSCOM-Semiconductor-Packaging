@@ -129,11 +129,30 @@ Create a same size rectangle as Die with the same location. Only add thickness a
 ![image41](https://github.com/user-attachments/assets/da11d9eb-b72a-4b51-9a8f-4a55c638c5cd)
 Change the rectangle name to Dieattach and the material to modified epoxy
 ![image42](https://github.com/user-attachments/assets/abddd113-2929-4bab-82fb-6a302975ce95)
-The highlighted portion is Die attach portion.
+The highlighted portion is the Die attach portion.
 ![image43](https://github.com/user-attachments/assets/24910d2d-d6fc-45fd-9f84-b23c83dd14b9)
-Create a rectangle on die which will look like the figure below.
+Create a rectangle on the die that will look like the figure below.
 ![image44](https://github.com/user-attachments/assets/91fea646-f8c2-4a65-87a0-547c24f7fbd4)
 Values for the pad and size are given in the image below.
 ![image45](https://github.com/user-attachments/assets/ee5d0dc2-0231-4b15-b870-14f8b585c09c)
-Add thickness to the rectangle by selecting a function from modeler>Surface>Thicken Sheet. Add thickness approx 50 micron.
+Add thickness to the rectangle by selecting a function from Modeler>Surface>Thicken Sheet. Add thickness approx 50 micron.
 ![image46](https://github.com/user-attachments/assets/cab98a6a-af9e-426a-b43e-1cbb791a2112)
+Change the rectangle name to Diebondpad and the material to copper or any other conductive material as per the customer's requirement. Here I have changed the colour to dark yellow to look like copper. 
+![image47](https://github.com/user-attachments/assets/25f011fd-d5ac-4f00-921c-c55f23b3b2f1)
+Place 3 more rectangles at a pitch of 0.45 mm.
+In the same manner, place 4 more rectangles on the opposite side. The figure below shows the position of one of the opposite side diebondpad 
+![image48](https://github.com/user-attachments/assets/48cdf452-bc80-4f12-a752-224763e19900)
+After placing all the rectangles, change the rectangle name and material similar to diebondpad.
+
+Create a rectangle on the substrate 
+![image49](https://github.com/user-attachments/assets/c27d2ed6-486d-45ce-9acf-6efc013362d4)
+The size and position of the reactangle are shown in the figure below
+![image50](https://github.com/user-attachments/assets/4769c989-f0ec-48b9-b366-58b1c6ed5b44)
+Add thickness
+![image51](https://github.com/user-attachments/assets/ee1ea2be-51d6-46d2-8e80-471fad7d30d4)
+change the rectangle name, material and color
+![image52](https://github.com/user-attachments/assets/7f63aba7-f7af-4b35-b92b-320df0414984)
+After placing a few more rectangles at a pitch of 0.5 mm, and repeating the same process of name and material. The final image will look like this.
+![image53](https://github.com/user-attachments/assets/e816b391-2ee5-4706-a736-0bf0d3148d21)
+
+
