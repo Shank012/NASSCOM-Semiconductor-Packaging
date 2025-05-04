@@ -64,3 +64,26 @@ The activities include:
 ---------------------------------------------------------------------------------------------------------------------------
 ## <h2 id="header-2">Lab-1 Thermal Analysis</h2>
 
+
+Open Ansys Electronics Desktop. Go to Project -> Insert Icepack Design
+![image15](https://github.com/user-attachments/assets/894e8182-10fd-4b15-911a-30880c901f67)
+
+
+![image16](https://github.com/user-attachments/assets/0cd945d1-109f-4a80-94f2-7813d385b0d3)
+
+![image17](https://github.com/user-attachments/assets/aac7707e-f23f-47a0-a9f8-c6f4ec2ccc7f)
+
+![image18](https://github.com/user-attachments/assets/e5d8563c-f988-4d23-9de0-eb3abcfe6002)
+
+![image19](https://github.com/user-attachments/assets/86171dae-dee3-4260-97cb-013c9e2d4c74)
+
+![image20](https://github.com/user-attachments/assets/cba1cae6-e214-4b99-8569-e026919293f8)
+
+![image21](https://github.com/user-attachments/assets/03773c00-83ee-44bc-a785-bf9fe0fb4fa0)
+
+![image22](https://github.com/user-attachments/assets/807bdf49-70d2-4cde-990d-c22395b71726)
+
+![image23](https://github.com/user-attachments/assets/3cea8145-f189-44c1-b208-f5a6c386309a)
+
+
+![image30](https://github.com/user-attachments/assets/4a79e499-7936-4b54-a7eb-1d391cfd24f3)
