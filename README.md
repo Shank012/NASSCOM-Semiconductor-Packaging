@@ -102,6 +102,38 @@ Assign temperature monitors to undefil, substrate and die
 
 ![image31](https://github.com/user-attachments/assets/4a79e499-7936-4b54-a7eb-1d391cfd24f3)
 
-Similarly we can do thermal analysis for other packages, Below is the image for QFN package.
+Similarly, we can do thermal analysis for other packages. Below is the image for the QFN package.
 ![image32](https://github.com/user-attachments/assets/3f5a3a32-2825-41f0-9297-0999976d2203)
 
+----------------------------------------------------------------------------------------------------------------------------
+## <h2 id="header-3">Lab-2 Package Design and Modeling</h2>
+
+![image33](https://github.com/user-attachments/assets/ffce76a0-14c5-4acd-9efa-dbf3de40a7f9)
+Create a rectangle of size 2.05 x 1.4 mm. And put the location as origin (0,0,0)
+![image34](https://github.com/user-attachments/assets/1e7baa6e-fa70-414f-9a1e-38b6fcd2868e)
+Select the rectangle and proceed as per the image, and select the Thicken sheet function
+![image35](https://github.com/user-attachments/assets/866b4cba-d319-490f-87c4-d6e6edae4120)
+And provide the die thickness as the value. In our case, we have used 0.3mm as die height.
+![image36](https://github.com/user-attachments/assets/9221c5d3-8269-4ca1-b7aa-483e308197d6)
+
+Change the name of the rectangle to Die. And select the materials as die material or silicon in our case.
+![image37](https://github.com/user-attachments/assets/c1620c62-6907-45bf-aa21-5b8392c74a54)
+
+Create another rectangle with dimensions shown below:
+![image38](https://github.com/user-attachments/assets/e268c37c-b5a6-4f1a-b1b1-c4c7d2e431d3)
+The thickness we have used is a negative value, so that it expands downward. 
+![image39](https://github.com/user-attachments/assets/c23e2fb4-40e7-40b0-b808-5fd89ef5efe2)
+Change the name of the rectangle to Substrate and select the material as FR4.
+![image40](https://github.com/user-attachments/assets/41e44c95-e4db-4767-8c19-0b0d4eb7958c)
+Create a same size rectangle as Die with the same location. Only add thickness as -0.1 to fill the gap between the die and the substrate.
+![image41](https://github.com/user-attachments/assets/da11d9eb-b72a-4b51-9a8f-4a55c638c5cd)
+Change the rectangle name to Dieattach and the material to modified epoxy
+![image42](https://github.com/user-attachments/assets/abddd113-2929-4bab-82fb-6a302975ce95)
+The highlighted portion is Die attach portion.
+![image43](https://github.com/user-attachments/assets/24910d2d-d6fc-45fd-9f84-b23c83dd14b9)
+Create a rectangle on die which will look like the figure below.
+![image44](https://github.com/user-attachments/assets/91fea646-f8c2-4a65-87a0-547c24f7fbd4)
+Values for the pad and size are given in the image below.
+![image45](https://github.com/user-attachments/assets/ee5d0dc2-0231-4b15-b870-14f8b585c09c)
+Add thickness to the rectangle by selecting a function from modeler>Surface>Thicken Sheet. Add thickness approx 50 micron.
+![image46](https://github.com/user-attachments/assets/cab98a6a-af9e-426a-b43e-1cbb791a2112)
