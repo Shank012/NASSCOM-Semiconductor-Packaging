@@ -31,6 +31,8 @@ The activities include:
 
 ## <h2 id="header-1">Semiconductor Packaging</h2>
 
+
+The slides explain the need for semiconductor packaging and how various types of packaging are available. 
 ![image1](https://github.com/user-attachments/assets/7e5e9292-ca7c-408b-bb15-689e49ecf89f)
 
 ![image2](https://github.com/user-attachments/assets/cbe4ecca-76da-4edf-ba62-a27939809a12)
@@ -65,12 +67,13 @@ The activities include:
 ## <h2 id="header-2">Lab-1 Thermal Analysis</h2>
 
 
-Open Ansys Electronics Desktop. Go to Project -> Insert Icepack Design
+Open Ansys Electronics Desktop. Go to Project > Insert Icepack Design
 ![image15](https://github.com/user-attachments/assets/894e8182-10fd-4b15-911a-30880c901f67)
 
-
+Icepack > Toolkit > Geometry > Packages > FilpChip_BGA
 ![image16](https://github.com/user-attachments/assets/0cd945d1-109f-4a80-94f2-7813d385b0d3)
 
+Fill out the dimensions of the package and die according to the datasheet or customer specifications.
 ![image17](https://github.com/user-attachments/assets/aac7707e-f23f-47a0-a9f8-c6f4ec2ccc7f)
 
 ![image18](https://github.com/user-attachments/assets/e5d8563c-f988-4d23-9de0-eb3abcfe6002)
@@ -79,17 +82,22 @@ Open Ansys Electronics Desktop. Go to Project -> Insert Icepack Design
 
 ![image20](https://github.com/user-attachments/assets/cba1cae6-e214-4b99-8569-e026919293f8)
 
+Double-click the Thermal component > Select Powre > 1W
 ![image21](https://github.com/user-attachments/assets/03773c00-83ee-44bc-a785-bf9fe0fb4fa0)
 
+Select the Flipchip_BGA_substrate > Assign thermal > Source
 ![image22](https://github.com/user-attachments/assets/807bdf49-70d2-4cde-990d-c22395b71726)
 
+Change the thermal condition to Fixed temperature. Set the temperature as Ambient temperature.
 ![image23](https://github.com/user-attachments/assets/3cea8145-f189-44c1-b208-f5a6c386309a)
+
 Remove unnecessary elements (e.g., Flipchip_BGA_trace1 under Thermal)
-Assign temperature monitors to undefil, substrate and die
+Assign temperature monitors to underfil, substrate, and die.
 ![image24](https://github.com/user-attachments/assets/0c482ed4-1a14-4a54-987e-d481b32c4d01)
 
 ![image25](https://github.com/user-attachments/assets/71a91b86-2e14-4eb4-9f6f-7fca335133ec)
 
+Go to Simulation Tab > Generate Mesh
 ![image26](https://github.com/user-attachments/assets/e26d8d81-3a42-4074-af89-4ee2062ce61b)
 
 ![image27](https://github.com/user-attachments/assets/60d6f9cb-19ed-440d-8671-44e0f6f01d3b)
