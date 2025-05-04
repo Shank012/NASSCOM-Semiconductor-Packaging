@@ -84,6 +84,15 @@ Open Ansys Electronics Desktop. Go to Project -> Insert Icepack Design
 ![image22](https://github.com/user-attachments/assets/807bdf49-70d2-4cde-990d-c22395b71726)
 
 ![image23](https://github.com/user-attachments/assets/3cea8145-f189-44c1-b208-f5a6c386309a)
+Remove unnecessary elements (e.g., Flipchip_BGA_trace1 under Thermal)
+Assign temperature monitors to undefil, substrate and die
+![image24](https://github.com/user-attachments/assets/0c482ed4-1a14-4a54-987e-d481b32c4d01)
+![image25](https://github.com/user-attachments/assets/71a91b86-2e14-4eb4-9f6f-7fca335133ec)
+
+![image26](https://github.com/user-attachments/assets/e26d8d81-3a42-4074-af89-4ee2062ce61b)
+
+![image27](https://github.com/user-attachments/assets/60d6f9cb-19ed-440d-8671-44e0f6f01d3b)
+
 
 
 ![image30](https://github.com/user-attachments/assets/4a79e499-7936-4b54-a7eb-1d391cfd24f3)
