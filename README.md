@@ -1,6 +1,8 @@
 # NASSCOM-Semiconductor-Packaging
 The repository is about the semiconductor packaging workshop offered by VSD and NASSCOM.
 It contains the details about the labs and exploring other packages.
+
+
 The activities include:
 <div class="toc">
   <ul>
@@ -57,4 +59,8 @@ The activities include:
 
 ![image14](https://github.com/user-attachments/assets/ae0f45c1-cb84-441f-a9b7-46ddbbf79818)
 
+
+
+---------------------------------------------------------------------------------------------------------------------------
+## <h2 id="header-2">Lab-1 Thermal Analysis</h2>
 
