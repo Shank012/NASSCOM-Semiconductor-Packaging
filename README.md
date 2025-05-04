@@ -29,6 +29,6 @@ The activities include:
 
 ## <h2 id="header-1">Semiconductor Packaging</h2>
 
-![image](https://github.com/user-attachments/assets/7e5e9292-ca7c-408b-bb15-689e49ecf89f)
+![image1](https://github.com/user-attachments/assets/7e5e9292-ca7c-408b-bb15-689e49ecf89f)
 
-![image](https://github.com/user-attachments/assets/c5c0e9c8-5a1f-4ffe-a98f-1ed4039c1725)
+![image2](https://github.com/user-attachments/assets/c5c0e9c8-5a1f-4ffe-a98f-1ed4039c1725)
