@@ -92,7 +92,7 @@ Change the thermal condition to Fixed temperature. Set the temperature as Ambien
 ![image23](https://github.com/user-attachments/assets/3cea8145-f189-44c1-b208-f5a6c386309a)
 
 Remove unnecessary elements (e.g., Flipchip_BGA_trace1 under Thermal)
-Assign temperature monitors to underfil, substrate, and die.
+Assign temperature monitors to underfill, substrate, and die.
 ![image24](https://github.com/user-attachments/assets/0c482ed4-1a14-4a54-987e-d481b32c4d01)
 
 ![image25](https://github.com/user-attachments/assets/71a91b86-2e14-4eb4-9f6f-7fca335133ec)
@@ -103,7 +103,7 @@ Go to Simulation Tab > Generate Mesh
 Check Mesh quality and other functions in that window.
 ![image27](https://github.com/user-attachments/assets/60d6f9cb-19ed-440d-8671-44e0f6f01d3b)
 
-Do analysis setup
+Do the analysis setup
 ![image28](https://github.com/user-attachments/assets/3e7b3898-3499-4d73-9099-d4fe704b6708)
 
 Validate the package. If anything is wrong, solve the error. After that, analyse the package using the Analyze all function near to validate button.
@@ -162,7 +162,7 @@ Values for the pad and size are given in the image below.
 Add thickness to the rectangle by selecting a function from Modeler>Surface>Thicken Sheet. Add thickness approx 50 micron.
 ![image46](https://github.com/user-attachments/assets/cab98a6a-af9e-426a-b43e-1cbb791a2112)
 
-Change the rectangle name to Diebondpad and the material to copper or any other conductive material as per the customer's requirement. Here I have changed the colour to dark yellow to look like copper. 
+Change the rectangle name to Diebondpad and the material to copper or any other conductive material as per the customer's requirement. Here I have changed the colour to brown to look like copper. 
 ![image47](https://github.com/user-attachments/assets/25f011fd-d5ac-4f00-921c-c55f23b3b2f1)
 
 Place 3 more rectangles at a pitch of 0.45 mm.
@@ -173,34 +173,35 @@ After placing all the rectangles, change the rectangle name and material similar
 Create a rectangle on the substrate 
 ![image49](https://github.com/user-attachments/assets/c27d2ed6-486d-45ce-9acf-6efc013362d4)
 
-The size and position of the reactangle are shown in the figure below
+The size and position of the rectangle are shown in the figure below.
 ![image50](https://github.com/user-attachments/assets/4769c989-f0ec-48b9-b366-58b1c6ed5b44)
 
-Add thickness
+
+Add thickness.
 ![image51](https://github.com/user-attachments/assets/ee1ea2be-51d6-46d2-8e80-471fad7d30d4)
 
-change the rectangle name, material and color
+Change the rectangle name, material, and color.
 ![image52](https://github.com/user-attachments/assets/7f63aba7-f7af-4b35-b92b-320df0414984)
 
 After placing a few more rectangles at a pitch of 0.5 mm, and repeating the same process of name and material. The final image will look like this.
 ![image53](https://github.com/user-attachments/assets/e816b391-2ee5-4706-a736-0bf0d3148d21)
 
-Click on draw button and select the bondwire function. Joint to diebondpad and substartebondpad using bondwire function.
+Click on the draw button and select the bondwire function. Joint to diebondpad and substratebondpad using bondwire function.
 ![image54](https://github.com/user-attachments/assets/9e4e32ed-3876-4e49-ae7f-a13a4ad3caab)
 
 Change the name and material if required
 ![image55](https://github.com/user-attachments/assets/49f72404-d9a7-4b11-83f0-87ba384d1bd3)
 
-After connecting all the connection, the die will look like below
+After connecting all the connections, the die will look like below
 ![image56](https://github.com/user-attachments/assets/30271c97-251c-4879-8118-0d900b37016a)
 
 Create a rectangle of the same size and location as the substrate. And add Thickness 0.9 mm.
 ![image57](https://github.com/user-attachments/assets/4c817e2e-b0da-4026-8e31-c7d343099512)
 
-Change the rectangle name to Moldedbody and the material to epoxy or similar material
+Change the rectangle name to Moldedbody and the material to epoxy or a similar material
 ![image58](https://github.com/user-attachments/assets/d8160648-911c-4ae9-93fc-d96c0a313543)
 
-Final model of DFN package will look like the image below
+The final model of the DFN package will look like the image below
 ![image59](https://github.com/user-attachments/assets/84c8b8ee-53e2-4009-8e6f-e081e3a3269f)
 ![image60](https://github.com/user-attachments/assets/7faee64d-99e6-408b-9bb7-079da7899b04)
 
