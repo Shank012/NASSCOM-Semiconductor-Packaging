@@ -120,11 +120,15 @@ Similarly, we can do thermal analysis for other packages. Below is the image for
 ----------------------------------------------------------------------------------------------------------------------------
 ## <h2 id="header-3">Lab-2 Package Design and Modeling</h2>
 
+Project > Inser Q3D Extractor Design
 ![image33](https://github.com/user-attachments/assets/ffce76a0-14c5-4acd-9efa-dbf3de40a7f9)
+
 Create a rectangle of size 2.05 x 1.4 mm. And put the location as origin (0,0,0)
 ![image34](https://github.com/user-attachments/assets/1e7baa6e-fa70-414f-9a1e-38b6fcd2868e)
+
 Select the rectangle and proceed as per the image, and select the Thicken sheet function
 ![image35](https://github.com/user-attachments/assets/866b4cba-d319-490f-87c4-d6e6edae4120)
+
 And provide the die thickness as the value. In our case, we have used 0.3mm as die height.
 ![image36](https://github.com/user-attachments/assets/9221c5d3-8269-4ca1-b7aa-483e308197d6)
 
@@ -133,29 +137,39 @@ Change the name of the rectangle to Die. And select the materials as die materia
 
 Create another rectangle with dimensions shown below:
 ![image38](https://github.com/user-attachments/assets/e268c37c-b5a6-4f1a-b1b1-c4c7d2e431d3)
+
 The thickness we have used is a negative value, so that it expands downward. 
 ![image39](https://github.com/user-attachments/assets/c23e2fb4-40e7-40b0-b808-5fd89ef5efe2)
+
 Change the name of the rectangle to Substrate and select the material as FR4.
 ![image40](https://github.com/user-attachments/assets/41e44c95-e4db-4767-8c19-0b0d4eb7958c)
+
 Create a same size rectangle as Die with the same location. Only add thickness as -0.1 to fill the gap between the die and the substrate.
 ![image41](https://github.com/user-attachments/assets/da11d9eb-b72a-4b51-9a8f-4a55c638c5cd)
+
 Change the rectangle name to Dieattach and the material to modified epoxy
 ![image42](https://github.com/user-attachments/assets/abddd113-2929-4bab-82fb-6a302975ce95)
+
 The highlighted portion is the Die attach portion.
 ![image43](https://github.com/user-attachments/assets/24910d2d-d6fc-45fd-9f84-b23c83dd14b9)
+
 Create a rectangle on the die that will look like the figure below.
 ![image44](https://github.com/user-attachments/assets/91fea646-f8c2-4a65-87a0-547c24f7fbd4)
+
 Values for the pad and size are given in the image below.
 ![image45](https://github.com/user-attachments/assets/ee5d0dc2-0231-4b15-b870-14f8b585c09c)
+
 Add thickness to the rectangle by selecting a function from Modeler>Surface>Thicken Sheet. Add thickness approx 50 micron.
 ![image46](https://github.com/user-attachments/assets/cab98a6a-af9e-426a-b43e-1cbb791a2112)
+
 Change the rectangle name to Diebondpad and the material to copper or any other conductive material as per the customer's requirement. Here I have changed the colour to dark yellow to look like copper. 
 ![image47](https://github.com/user-attachments/assets/25f011fd-d5ac-4f00-921c-c55f23b3b2f1)
+
 Place 3 more rectangles at a pitch of 0.45 mm.
 In the same manner, place 4 more rectangles on the opposite side. The figure below shows the position of one of the opposite side diebondpad 
 ![image48](https://github.com/user-attachments/assets/48cdf452-bc80-4f12-a752-224763e19900)
-After placing all the rectangles, change the rectangle name and material similar to diebondpad.
 
+After placing all the rectangles, change the rectangle name and material similar to diebondpad.
 Create a rectangle on the substrate 
 ![image49](https://github.com/user-attachments/assets/c27d2ed6-486d-45ce-9acf-6efc013362d4)
 
@@ -195,4 +209,5 @@ Final model of DFN package will look like the image below
 ## <h2 id="header-4">Acknowledgements</h2>
  
 [Dr. Tarun Kumar Agarwal](https://iitgn.ac.in/faculty/ee/fac-tarun)
+
 [Kunal Ghosh](https://github.com/kunalg123) 
